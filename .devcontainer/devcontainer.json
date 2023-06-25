@@ -60,14 +60,16 @@
 	
 		"extensions": [
 			"coenraads.bracket-pair-colorizer-2",
-		"ms-python.python",
+			"ms-python.python",
 			"njpwerner.autodocstring",
 			"mhutchie.git-graph",
 			"eamodio.gitlens",
-		"formulahendry.auto-close-tag",
-		"mikestead.dotenv",
-		"christian-kohler.path-intellisense",
-		"davidanson.vscode-markdownlint"
+			"formulahendry.auto-close-tag",
+			"mikestead.dotenv",
+			"christian-kohler.path-intellisense",
+			"davidanson.vscode-markdownlint",
+			"ms-python.vscode-pylance",
+			"ms-python.python"
 		],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

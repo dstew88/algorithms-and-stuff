@@ -1,12 +1,10 @@
 from typing import List
 
-from graphs.graph import Graph
-
+from src.graphs.graph import Graph
 
 def breadth_first_search(graph: Graph, starting_vertex: int) -> List[int]:
 
     # check vertex in graph
-    print(graph.get_num_vertices())
     if starting_vertex > graph.get_num_vertices() - 1:
         raise ValueError("Vertex does not exist in graph!")
 
